@@ -9,9 +9,8 @@ $navbar-height:                   45px;
 $navbar-default-link-color:       #bdc3c7;
 $navbar-default-link-hover-color: #95a5a6;
 $jumbotron-bg:                    #bdc3c7;
-$jumbotron-color:                 #9b59b6;
-$jumbotron-heading-color:         white;
-$btn-default-bg:                  #BDC3C7;
+$jumbotron-heading-color:         #ECF0F1;
+$btn-default-bg:                  #bdc3c7;
 $btn-default-border:              #9B59B6;
 $btn-default-color:               #9B59B6;
 $btn-primary-bg:                  #9B59B6;
@@ -29,7 +28,7 @@ $btn-primary-color:               #BDC3C7;
 
 .jumbotron {
   h1 {
-    font-size: 42px;
+    font-size: 36px;
     font-weight: bold;
   }
 }
