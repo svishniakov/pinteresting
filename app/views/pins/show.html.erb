@@ -7,7 +7,7 @@
       </div>
       <div class="panel-body">
         <p><%= @pin.description %></p>
-        <p><%= @pin.user.email if @pin.user %></p>
+        <p><%= @pin.user.name if @pin.user %></p>
         <%= link_to pins_path do %>
           <span class="glyphicon glyphicon-arrow-left"></span>
           Back
