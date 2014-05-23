@@ -30,6 +30,9 @@ gem 'masonry-rails'
 gem 'will_paginate'
 gem 'will_paginate-bootstrap'
 
+# Amazon S3 related gem
+gem 'aws-sdk'
+
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
