@@ -21,7 +21,7 @@
 *.gif
 
 # доступ к базе данным
-/config/database.yml
+# /config/database.yml
 
 /Procfile
 
@@ -30,3 +30,6 @@
 
 # файлы, которых нет в репозитории, но они будут скопированы на сервер при первом деплое приложения
 /shared/
+
+# если установлен Paperclip
+/public/system/
