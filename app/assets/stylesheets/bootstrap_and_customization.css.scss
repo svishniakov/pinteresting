@@ -1,22 +1,48 @@
 @import url(http://fonts.googleapis.com/css?family=Lato);
 
-$body-bg:                         #BE90D4;
+$body-bg:                         #FBFAE6;
 $font-family-sans-serif:          'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$text-color:                      #ECF0F1;
-$navbar-default-bg:               #9B59B6;
-$navbar-default-brand-color:      #bdc3c7;
-$navbar-height:                   45px;
-$navbar-default-link-color:       #bdc3c7;
-$navbar-default-link-hover-color: #95a5a6;
-$jumbotron-bg:                    #bdc3c7;
-$jumbotron-heading-color:         #ECF0F1;
-$btn-default-bg:                  #bdc3c7;
-$btn-default-border:              #9B59B6;
-$btn-default-color:               #9B59B6;
-$btn-primary-bg:                  #9B59B6;
-$btn-primary-color:               #BDC3C7;
+$text-color:                      #95A5A6;
+
+$navbar-default-bg:               #EE352A;
+$navbar-default-brand-color:      #FBFAE6;
+$navbar-default-brand-hover-color:#F9BF3B;
+$navbar-height:                   60px;
+$navbar-default-link-color:       #FBFAE6;
+$navbar-default-link-hover-color: #F9BF3B;
+
+$jumbotron-bg:                    #fff;
+$jumbotron-heading-color:         #EE352A;
+$jumbotron-padding:               20px;
+
+$btn-default-border:              #EE352A;
+$btn-default-bg:                  #FBFAE6;
+$btn-default-color:               #EE352A;
+
+$btn-primary-border:              #EE352A;
+$btn-primary-bg:                  #EE352A;
+$btn-primary-color:               #FBFAE6;
+
+$pagination-active-bg:            #EE352A;
+$pagination-active-border:        #EE352A;
+$pagination-active-color:         #FBFAE6;
+$pagination-color:                #EE352A;
+$pagination-hover-color:          #EE352A;
+
+
+a.action_links {
+  color: #EE352A;
+  &:hover {
+    color: #F9BF3B;
+    text-decoration: none;
+  }
+}
 
 @import "bootstrap";
+
+body {
+  padding-top: 90px;
+}
 
 .center {
   text-align: center;
@@ -31,4 +57,11 @@ $btn-primary-color:               #BDC3C7;
     font-size: 36px;
     font-weight: bold;
   }
+}
+.glyphicon {
+  color: #EE352A;
+}
+
+.author {
+  font-size: 8px;
 }

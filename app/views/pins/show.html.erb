@@ -7,14 +7,14 @@
       </div>
       <div class="panel-body">
         <p><%= @pin.description %></p>
-        <p><%= @pin.user.name if @pin.user %></p>
-        <%= link_to pins_path do %>
+        <p class="author"><%= @pin.user.name if @pin.user %></p>
+        <%= link_to pins_path, class: "action_links" do %>
           <span class="glyphicon glyphicon-arrow-left"></span>
           Back
         <% end %>
 
         <% if current_user && (@pin.user == current_user) %>
-          <%= link_to edit_pin_path(@pin) do %>
+          <%= link_to edit_pin_path(@pin), class: "action_links" do %>
            | <span class="glyphicon glyphicon-edit"></span>
           Edit
           <% end %>
